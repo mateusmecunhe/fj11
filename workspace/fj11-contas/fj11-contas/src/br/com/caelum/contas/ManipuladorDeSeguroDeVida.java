@@ -10,7 +10,7 @@ public class ManipuladorDeSeguroDeVida {
 		this.seguroDeVida = new SeguroDeVida();
 		this.seguroDeVida.setNumeroApolice(evento.getInt("numeroApolice"));
 		this.seguroDeVida.setTitular(evento.getString("titular"));
-		this.seguroDeVida.setValor(evento.getDouble("valor"));
+		this.seguroDeVida.setValor(evento.getDouble("valor"));  
 	}
 
 }
